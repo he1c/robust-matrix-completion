@@ -1,7 +1,7 @@
 clear
 
-Image=imread('lenna.bmp');
-CrossMark=imread('CrossMark.bmp');
+Image=imread('data\lenna.bmp');
+CrossMark=imread('data\CrossMark.bmp');
 
 I=double(rgb2gray(Image))./255;
 [n1,n2]=size(I);
